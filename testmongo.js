@@ -35,8 +35,8 @@ console.log("Looking for: " + searchKey);
 
 async function run() {
   try {
-    const database = client.db('Cluster0');
-    const parts = database.collection('ElijahDatabase.ElijahCollection');
+    const database = client.db('ElijahDatabase');
+    const parts = database.collection('ElijahCollection');
 
     // Hardwired Query for a part that has partID '12345'
     // const query = { partID: '12345' };
